@@ -1,0 +1,17 @@
+.grid {
+    display: -webkit-flex;
+    display:flex;
+  
+  }
+  
+  /* .fixed {
+    width:400px;
+  }
+   */
+  .fluid {
+    flex: 1;
+  }
+  
+  .col {
+    padding: 30px;
+  }

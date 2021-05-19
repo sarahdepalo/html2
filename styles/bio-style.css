@@ -1,0 +1,222 @@
+/* Header Styles */
+
+header{
+    padding: 25px 10px 15px 10px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    border-bottom: 4px solid #315936;
+    box-shadow: 5px 5px 5px #e8e8e6;
+    background-image: url("succulent.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+header img{
+    height:200px;
+    padding-right: 20%;
+}
+
+.container{
+	display: flex;
+	align-items: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color:#08519c;
+
+}
+
+.text-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+   
+}
+
+/* Body Styles */
+
+body {
+    margin:0 auto;
+    background-image: url("white-wall.png"); 
+    /* Background pattern from Toptal Subtle Patterns */
+    background-repeat: repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #333333;
+
+    
+}
+
+h1 {
+    color: #255a2f;
+}
+
+.content {
+    max-width: 1080px; 
+	margin: 20px;
+	float: none;
+    padding-bottom: 20px;
+   
+}
+
+
+
+/* Introduction photo and Likes and Dislikes list */
+
+li {
+    color: #255a2f;
+    font-weight: bolder;
+    font-size:25px;
+    list-style-type: none;
+    font-family: 'Source Sans Pro', serif;
+    margin-left: 0;
+}
+
+li span {
+    color: #333333;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro-paragraph {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.content-box {
+    columns: 2 200px;
+    padding-top: 50px;
+    column-gap: 10px;
+}
+
+/* This styles the column holding the introduction photo. See the code below for the actual image styling */
+
+.intro-photo {
+    display: block;
+	margin-left: 10px;
+	margin-right:auto;
+	width:45%;
+    padding-bottom: 20px;
+
+    
+
+}
+
+.intro-photo img {
+    box-shadow: 10px 5px 5px #D5D8DC ;
+}
+
+/* "Four Image Column" styling */
+
+
+.col-image {
+    height: 400px;
+    padding-top: 30px;
+    
+}
+
+table {
+    margin-left: 0;
+    margin-right: auto;
+    border-spacing: 10px;
+    
+}
+/* Animation code begins here */
+
+.fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s; /* This and the following three lines makes sure the animation code works across different browsers */
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {    
+    0% {opacity:0;} /* This is setting what the fade-in effect will look like (opacity) at 0 */
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+/* Outro Section */
+
+
+.outro-photo {
+    box-shadow: 10px 5px 5px #D5D8DC;
+
+    
+}
+
+.goodbye-message {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color:#255a2f;
+    font-weight: bolder;
+}
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    border-top: 4px solid #315936;
+}
+
+footer img {
+    height: 35px;
+    
+}
+
+footer p {
+    font-size: 14px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+}
+
+/* Test Grid Styles */
+.grid {
+    display: -webkit-flex;
+    display:flex;
+    column-gap: 10px;
+  
+  }
+  
+  .fixed {
+    width:400px;
+  }
+  
+  .fluid {
+    flex: 1;
+  }
+  
+  .col {
+    padding: 30px;
+  }
+
+  .image-col {
+      padding-top: 60px;
+  }
