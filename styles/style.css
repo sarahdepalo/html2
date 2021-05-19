@@ -1,0 +1,69 @@
+body {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("white-wall.png");
+    background-repeat: repeat;
+    color: #33333a;
+    
+}
+
+main {
+    margin: 30px 120px 50px 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+
+}
+
+h1 {
+    font-family:'Parisienne', cursive;
+    font-size: 48px;
+    text-shadow: 1px 1px 2px grey;
+    color: #2e2e34;
+}
+
+h2 {
+    font-family: 'Goblin One', cursive;
+    color: #2e2e34;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    color: #5c5c61
+}
+
+blockquote {
+    border-style: outset;
+    padding: 15px;
+    color: #5c5c61;
+    font-size: 18px;
+}
+
+hr.heavy-weight {
+    border-bottom: 3px solid grey;
+}
+
+img {
+    box-shadow: 10px 5px 5px grey;
+}
+
+
+a:link {
+    color:aquamarine;
+}
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+
+
+
+
